@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-native-web": "^0.5.2"
+  },
+  "devDependencies": {
+    "babel-plugin-react-native-web": "^0.5.2"
+  }
+}
