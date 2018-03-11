@@ -1,10 +1,14 @@
-class Sample {
-  hello() {
-    return 'hello world';
-  }
+import React from 'react';
+import { Text, AppRegistry } from 'react-native';
+
+const App = () => {
+  return <Text>Hello World!</Text>
 }
 
-const sample = new Sample();
+// register the app
+AppRegistry.registerComponent('App', () => App);
 
-console.log(sample.hello());
-
+AppRegistry.runApplication('App', {
+  initialProps: {},
+  rootTag: document.getElementById('app')
+});
