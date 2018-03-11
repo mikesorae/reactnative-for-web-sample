@@ -1,9 +1,6 @@
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
-
-const App = () => {
-  return <Text>Hello World!</Text>
-}
+import { AppRegistry } from 'react-native';
+import App from './app'
 
 // register the app
 AppRegistry.registerComponent('App', () => App);
